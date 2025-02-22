@@ -86,6 +86,59 @@ nav {
     margin: 0;
 }
 
+/* Blog List */
+
+.blog-list {
+    display: grid;
+    gap: 3em 0;
+    grid-template-areas: 
+    ". . ."
+    ". w ."
+    ". m ."
+    ". a ."
+    ". c ."
+    ". j ."
+    ". r ."
+    ". . .";
+    grid-template-columns: 1em 1fr 1em;
+}
+
+.blog {
+    color: black;
+    text-decoration: none;
+}
+
+.blog:hover {
+    cursor: pointer;
+}
+
+.blog-img {
+    border-radius: 3px;
+    height: 232px;
+    width: 100%;
+}
+
+.blog-img:hover {
+    opacity: 0.9;
+}
+
+.blog-date {
+    font-size: 0.875rem;
+    margin: 0;
+    margin-bottom: 0.25em;
+}
+
+.blog-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.blog-text {
+    font-size: 1rem;
+    margin: 0;
+}
+
 /* Utility Classes */
 
 .text-multi-line { 
@@ -94,6 +147,30 @@ nav {
         -webkit-box-orient: vertical;
         line-clamp: 3;
     overflow: hidden;
+}
+
+.accessible-development {
+    grid-area: a;
+}
+
+.essential-css-concepts {
+    grid-area: c;
+}
+
+.essential-javascript-concepts {
+    grid-area: j;
+}
+
+.making-websites-interactive {
+    grid-area: m;
+}
+
+.responsive-design {
+    grid-area: r;
+}
+
+.web-dev-basics {
+    grid-area: w;
 }
 
 /* Media Queries */
@@ -132,5 +209,15 @@ nav {
 
     .text-multi-line {
         display: block;
+    }
+
+    .blog-list {
+        gap: 3em 2em;
+        grid-template-areas: 
+        ". . . . ."
+        ". w m a ."
+        ". c j r ."
+        ". . . . .";
+        grid-template-columns: 1em repeat(3, 1fr) 1em;
     }
 }
