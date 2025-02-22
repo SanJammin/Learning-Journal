@@ -139,6 +139,29 @@ nav {
     margin: 0;
 }
 
+/* Footer */
+
+footer {
+    background-color: #202020;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 105px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    margin: 0;
+}
+
 /* Utility Classes */
 
 .text-multi-line { 
