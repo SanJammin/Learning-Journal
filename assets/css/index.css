@@ -1,0 +1,63 @@
+body {
+    font-family: "Source Sans 3", "Roboto", sans-serif;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    align-items: center;
+    display: flex;
+    padding: 1em;
+}
+
+.title-and-logo {
+    align-items: center;
+    display: flex;
+}
+
+.page-title {
+    font-family: "Roboto", "Source Sans 3", sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding-left: 0.25em;
+    margin: 0;
+}
+
+.fa-lines-leaning {
+    font-size: 1rem;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0 0.25em;
+    text-transform: uppercase;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .page-title {
+        font-size: 1.25rem;
+    }
+
+    .fa-lines-leaning {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+}
