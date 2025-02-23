@@ -221,6 +221,8 @@ footer {
 
     .intro-para {
         font-size: 1.125rem;
+        margin-right: 5em;
+        padding: 0;
     }
 
     .recent-posts {
@@ -234,7 +236,7 @@ footer {
 }
 
 @media (min-width: 1024px) {
-    .blog-list {
+    .recent-posts {
         gap: 3em 5%;
     }
 }

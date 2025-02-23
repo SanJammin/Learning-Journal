@@ -180,7 +180,7 @@ footer {
 }
 
 @media (min-width: 1024px) {
-    .blog-list {
+    .recent-posts {
         gap: 3em 5%;
     }
 }
