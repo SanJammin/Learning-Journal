@@ -86,7 +86,14 @@ nav {
 
 .content-title {
     font-size: 1.25rem;
+    letter-spacing: 0.015em;
     margin: 0;
+}
+
+.content-para {
+    line-height: 1.5;
+    padding: 0 1em;
+    text-align: justify;
 }
 
 /* Blog List */
@@ -226,10 +233,18 @@ footer {
         padding: 0;
     }
 
-    .content-title {
-        font-size: 2rem;
+    .content {
         margin-left: 2em;
         margin-top: 1em;
+    }
+
+    .content-title {
+        font-size: 2rem;
+    }
+
+    .content-para {
+        padding-left: 3em;
+        margin-right: 3em;
     }
 
     .recent-posts {
