@@ -52,6 +52,42 @@ nav {
     cursor: pointer;
 }
 
+/* Intro */
+
+.intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 35%;
+}
+
+.intro-header {
+    font-size: 1.5rem;
+}
+
+.intro-para {
+    font-size: 1rem;
+    padding: 1em;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+/* Content */
+
+.content {
+    padding: 0 1em;
+}
+
+.content-title {
+    margin: 0;
+}
+
 /* Blog List */
 
 .recent-posts {
@@ -167,6 +203,24 @@ footer {
     .nav-link {
         font-size: 1rem;
         padding: 0 0.5em;
+    }
+
+    .intro {
+        flex-direction: row;
+        padding-left: 3em;
+    }
+
+    .intro-text {
+        margin-left: 5em;
+        text-align: left;
+    }
+
+    .intro-header {
+        font-size: 3rem;
+    }
+
+    .intro-para {
+        font-size: 1.125rem;
     }
 
     .recent-posts {
