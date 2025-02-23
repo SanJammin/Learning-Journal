@@ -280,6 +280,18 @@ footer {
     .view-more {
         display: none;
     }
+
+    .essential-css-concepts {
+        display: block;
+    }
+
+    .essential-javascript-concepts {
+        display: block;
+    }
+
+    .responsive-design {
+        display: block;
+    }
 }
 
 @media (min-width: 1024px) {
