@@ -221,6 +221,7 @@ footer {
 
     .nav-link {
         font-size: 1rem;
+        padding: 0 0.5em;
     }
 
     .featured-post {
@@ -254,5 +255,11 @@ footer {
         ". c j r ."
         ". . . . .";
         grid-template-columns: 1em repeat(3, 1fr) 1em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .blog-list {
+        gap: 3em 5%;
     }
 }
