@@ -101,6 +101,17 @@ nav {
     text-align: justify;
 }
 
+.content-link {
+    color: #202020;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content-link:hover,
+.content-link:focus {
+    font-size: 1.25rem;
+}
+
 /* Blog List */
 
 .recent-posts {
