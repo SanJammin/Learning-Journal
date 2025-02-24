@@ -263,6 +263,10 @@ footer {
         margin-right: 3em;
     }
 
+    ul {
+        padding-left: 7em;
+    }
+
     .recent-posts {
         gap: 3em 2em;
         grid-template-areas: 

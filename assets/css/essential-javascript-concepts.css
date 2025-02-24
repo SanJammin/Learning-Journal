@@ -101,6 +101,17 @@ nav {
     text-align: justify;
 }
 
+.content-link {
+    color: #202020;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content-link:hover,
+.content-link:focus {
+    font-size: 1.25rem;
+}
+
 /* Blog List */
 
 .recent-posts {
@@ -250,6 +261,10 @@ footer {
     .content-para {
         padding-left: 3em;
         margin-right: 3em;
+    }
+
+    ul {
+        padding-left: 7em;
     }
 
     .recent-posts {
