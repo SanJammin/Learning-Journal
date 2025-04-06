@@ -75,7 +75,7 @@ nav {
 }
 
 .date,
-.featured-title,
+.page-header,
 .featured-text {
     margin: 0;
 }
@@ -84,7 +84,7 @@ nav {
     font-size: 0.75rem;
 }
 
-.featured-title {
+.page-header {
     font-size: 2rem;
 }
 
